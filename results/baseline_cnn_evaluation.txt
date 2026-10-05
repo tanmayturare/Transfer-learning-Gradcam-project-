@@ -1,0 +1,22 @@
+BASELINE CNN EVALUATION RESULTS
+================================
+Test images: 624
+Test loss: 0.9167
+Test accuracy: 79.01%
+Precision: 75.15%
+Recall: 99.23%
+F1-score: 85.52%
+
+CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+      NORMAL       0.97      0.45      0.62       234
+   PNEUMONIA       0.75      0.99      0.86       390
+
+    accuracy                           0.79       624
+   macro avg       0.86      0.72      0.74       624
+weighted avg       0.83      0.79      0.77       624
+
+CONFUSION MATRIX
+[[106 128]
+ [  3 387]]

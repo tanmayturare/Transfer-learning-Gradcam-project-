@@ -1,0 +1,30 @@
+VGG16 FINE-TUNED FINAL RESULTS
+====================================
+
+Model: vgg16_finetuned_final.keras
+Threshold: 0.5
+
+Test Loss: 0.6296
+Accuracy: 83.49%
+Precision: 79.35%
+PNEUMONIA Recall: 99.49%
+NORMAL Recall: 56.84%
+F1 Score: 88.28%
+
+CONFUSION MATRIX
+----------------
+TN = 133
+FP = 101
+FN = 2
+TP = 388
+
+CLASSIFICATION REPORT
+---------------------
+              precision    recall  f1-score   support
+
+      NORMAL     0.9852    0.5684    0.7209       234
+   PNEUMONIA     0.7935    0.9949    0.8828       390
+
+    accuracy                         0.8349       624
+   macro avg     0.8893    0.7816    0.8018       624
+weighted avg     0.8654    0.8349    0.8221       624

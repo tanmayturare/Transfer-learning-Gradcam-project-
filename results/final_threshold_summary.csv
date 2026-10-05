@@ -1,0 +1,2 @@
+Model,Selected_Threshold,Validation_F1,Validation_Balanced_Accuracy,Test_Accuracy,Test_Precision,Test_Pneumonia_Recall,Test_Normal_Recall,Test_F1,Test_TN,Test_FP,Test_FN,Test_TP
+resnet50_final.keras,0.2,0.988296488946684,0.9834933857842569,0.8701923076923077,0.8336933045356372,0.9897435897435898,0.6709401709401709,0.9050410316529894,157,77,4,386
